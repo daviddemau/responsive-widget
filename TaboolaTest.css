@@ -3,18 +3,13 @@ body {
 }
 
 h2 {
-  font-size: 150%;
+  font-size: 130%;
 }
 
 .main {
-  width: 70%;
-  margin-left: 15%;
+  width: 50%;
+  margin-left: 25%;
   background-color: rgb(246, 244, 244);
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 #item {
@@ -32,7 +27,9 @@ h2 {
 }
 
 .title {
+  width: 90%;
   margin-top: 5px;
+  line-height: 1.2;
   overflow: hidden;
   font-weight: bold;
   font-size: 150%;
@@ -51,6 +48,12 @@ h2 {
 
 .branding {
   cursor: pointer;
+  font-size: 120%;
+  margin-top: 5px;
+}
+
+#category {
+  font-weight: bold;
 }
 
 /* media queries */
