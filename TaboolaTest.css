@@ -1,0 +1,122 @@
+body {
+  font-size: 12px;
+}
+
+h2 {
+  font-size: 150%;
+}
+
+.main {
+  width: 70%;
+  margin-left: 15%;
+  background-color: rgb(246, 244, 244);
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#item {
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.thumbnail {
+  background-size: cover;
+  width: 100%;
+  padding-top: 83.33%;
+  cursor: pointer;
+}
+
+.title {
+  margin-top: 5px;
+  overflow: hidden;
+  font-weight: bold;
+  font-size: 150%;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  box-sizing:border-box;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+}
+
+.branding {
+  cursor: pointer;
+}
+
+/* media queries */
+/* laptops */
+@media only screen and (max-width: 1280px) {
+  .main {
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(246, 244, 244);
+  }
+}
+
+/* large tablets */
+@media only screen and (max-width: 1023px) {
+  .main {
+    width: 60%;
+    margin-left: 20%;
+    background-color: rgb(246, 244, 244);
+  }
+  .title {
+    font-size: 100%;
+  }
+}
+
+/* tablets */
+@media only screen and (max-width: 767px) {
+  .main {
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(246, 244, 244);
+  }
+  .branding {
+    font-size: 80%;
+  }
+}
+
+/* smartphones */
+@media only screen and (max-width: 480px) {
+
+  .main {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .title {
+    font-size: 130%;
+  }
+
+  .branding {
+    font-size: 110%;
+  }
+
+  .row {
+    flex-wrap: wrap;
+  }
+
+  #item {
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 100%;
+  }
+
+  .thumbnail {
+    padding-top: 66.66%;
+  }
+
+}
