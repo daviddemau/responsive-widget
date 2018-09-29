@@ -48,12 +48,8 @@ h2 {
 
 .branding {
   cursor: pointer;
-  font-size: 120%;
+  font-size: 140%;
   margin-top: 5px;
-}
-
-#category {
-  font-weight: bold;
 }
 
 /* media queries */
@@ -74,7 +70,7 @@ h2 {
     background-color: rgb(246, 244, 244);
   }
   .title {
-    font-size: 100%;
+    font-size: 130%;
   }
 }
 
